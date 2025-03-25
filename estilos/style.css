@@ -7,8 +7,8 @@
 }
 
 html, body{
-    height: 100vh;
-    width: 100vw;
+    height: 98vh;
+    width: 98vw;
     
     
 }
@@ -39,7 +39,7 @@ section#telefone{
         
 }
 
-iframe#tela{
+iframe#tela{ /*conteudo dentro do iframe para ser a tela home do celular*/
     position: relative;
     top: 80px;
     left: 22px;
@@ -47,4 +47,27 @@ iframe#tela{
     height: 471px;
     
     
+}
+
+section#redes-sociais img{ /*criando os botoes*/
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.408);
+    box-sizing: border-box; /*a borda faz parte do botoes, efeito para criar o movimento quando passar o mouse*/
+
+    
+}
+
+section#redes-sociais img:hover{ /*conf para os botoes se "mover" quando passar o mouse por cima*/
+    border: 2px solid rgba(255, 255, 255, 0.497);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.593);
+    transition: transform 0.2s;
+
+
+}
+
+section#redes-sociais{ /*conf a posição dos botoes*/
+    text-align: right;
 }
